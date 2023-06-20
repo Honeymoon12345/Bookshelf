@@ -2,6 +2,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
 body {
   background-color: rgb(166, 139, 190);
 }
@@ -26,6 +31,7 @@ h4 {
 }
 input {
   font-size: 20px;
+  margin-bottom: 20px;
 }
 .btn {
   font-size: 20px;
@@ -36,6 +42,7 @@ input {
 }
 main {
   display: grid;
+  justify-content: space-evenly;
 }
 .container {
   margin: 30px;
