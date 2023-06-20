@@ -40,9 +40,8 @@ input {
   text-decoration: none;
   border: none;
 }
-main {
-  display: grid;
-  justify-content: space-evenly;
+.bookShelf {
+  display: flex;
 }
 .container {
   margin: 30px;
